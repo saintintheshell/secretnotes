@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :notes
   # get 'sessions/new'
   root 'sessions#new'
   # get 'users/new'
